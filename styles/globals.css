@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+#custom-audio-player {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  #play-button {
+    /* Add styles for your play button */
+    cursor: pointer;
+  }
+
+  #progress-bar {
+    /* Add styles for your progress bar */
+    width: 80%;
+    height: 5px;
+    background-color: #8F8F8F;
+    position: relative;
+    border-radius: 20px;
+  }
+
+  #progress-bar .progress {
+    /* Add styles for the progress indicator */
+    background-color: #990000;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
